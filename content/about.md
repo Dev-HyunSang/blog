@@ -21,12 +21,20 @@ title: "About"
 > ***다시 생겨날 수 있기 위해서는 소멸하기를 원해야한다. 한날에서 다른 날로 백 개의 영혼을 통한 변모, 그것이 너의 삶, 너의 운명이 되도록 하라.*** - 차라투스트라는 이렇게 말했다 중.
 
 ## Education
-- 교육생 [@목포대학교 정보보호영재교육원](https://dream.mokpo.ac.kr/dream/index.do) (2017.03 ~ 2022.11)
-- 학부생 [@순천향대학교 정보보호학과](https://home.sch.ac.kr/security/index.jsp) (2023.03 ~ Current)
+### 교육생 [@목포대학교 정보보호영재교육원](https://dream.mokpo.ac.kr/dream/index.do) (2017.03 ~ 2022.11)
+- 중등기초, 중등심화, 고등전문 과정을 걸쳤습니다.
+- 기본적인 프로그래밍 능력 및 웹해킹, 리버싱을 공부하며, 기본적인 정보보호 윤리를 배웠습니다.
+
+### 학부생 [@순천향대학교 정보보호학과](https://home.sch.ac.kr/security/index.jsp) (2023.03 ~ Current)
+
 
 ## Work
-- Software Engineer [@TeamGRIT, Inc.](https://teamgrit.kr/) (2021.08 ~ 2023.08)
-  - 서비스 개발팀, Go언어를 통한 미디어 스토리지 개발.
+
+### Software Engineer [@TeamGRIT, Inc.](https://teamgrit.kr/) (2021.08 ~ 2023.08)
+- 서비스 개발팀, Go언어를 통한 미디어 스토리지 제작.
+- AWS S3 · EC2, HLS(HTTP Live Streaming), FFmpeg를 중점적으로 사용함.
+
+### 정보보호병 [@대한민국 육군](https://www.army.mil.kr/sites/army/index.do) (2024.03.18 ~ 2025.09.14)
 
 ## Experience
 - Organizer [@Google for Developers Golang Korea](https://gdg.community.dev/gdg-golang-korea/) (2023.02 ~ Current)
