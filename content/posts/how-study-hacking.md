@@ -6,7 +6,7 @@ date: 2023-12-28
 toc:
     enable: true
     auto: true
-categories: ["Hacking"]
+categories: ["Cyber Security"]
 tags: ["Web Hacking", "Study"]
 ---
 안녕하세요. 박현상입니다.  

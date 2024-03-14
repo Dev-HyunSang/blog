@@ -16,7 +16,7 @@ hasCJKLanguage = true
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-# googleAnalytics = ""
+# googleAnalytics =
 # copyright description used only for seo schema
 copyright = "HyunSang Park"
 
@@ -68,6 +68,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     title = ""
   [[menu.main]]
     weight = 4
+    identifier = "Hacking"
+    pre = ""
+    post = ""
+    name = "Hacking"
+    url = "/hacking/"
+    title = ""
+  [[menu.main]]
+    weight = 6
     identifier = "about"
     pre = ""
     post = ""
@@ -88,7 +96,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website title for Open Graph and Twitter Cards
   title = "HyunSang Park"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Cyber Security · Software Engineering"
+  description = "Cyber Security Researching · Software Engineering"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -198,7 +206,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "박현상, HyunSang Park"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Cyber Security · Software Engineering"
+      subtitle = "Cyber Security Researching · Software Engineering"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
