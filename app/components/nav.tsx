@@ -9,6 +9,9 @@ const navItems = {
   },
   '/about': {
     name: 'about'
+  },
+  'https://til.hyunsang.dev': {
+    name: "til"
   }
 }
 

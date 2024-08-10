@@ -16,12 +16,9 @@ export default function Page() {
         <p className="mb-4">
             {`다양한 분들과 소통하며, 인사이트를 얻는 활동을 좋아해서 개발자 커뮤니티인 GDG Golang Korea를 운영하고 있습니다. 이러한 활동을 하면서 제 자신이 부족한 부분을 찾고자 노력하고 있습니다.`}
         </p>
-        <p className="mb-4">
-          {`현재는 국방의무를 다하기 위해서 제 전공을 살려 정보보호병으로 입대하여 국방의 의무를 다하고 있습니다. 누군가가 자신을 희생하여 지킨 이 나라를 이젠 제 손으로 지키고 있습니다.`}
-        </p>
         <div>
             <h2 className="mb-6 text-xl font-semibold">Experience</h2>
-            <li><strong>Work -</strong> 정보보호(사이버 관제)병 <a className="hover-link" href="https://www.army.mil.kr/" target="_blank">@대한민국 육군</a> (2024.03.18 ~ 2025.09.17)</li>
+            <li><strong>Duty Work -</strong> 정보보호(사이버 관제)병 <a className="hover-link" href="https://www.army.mil.kr/" target="_blank">@대한민국 육군</a> (2024.03.18 ~ 2025.09.17)</li>
             <li><strong>Work -</strong> Softwar Engineer 
                 <a className="hover-link" href="https://teamgrit.kr" target="_blank">@TeamGRIT, Inc.</a> (2021.08 ~ 2023.08)
             </li>
