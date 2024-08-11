@@ -11,7 +11,7 @@ export default function Page() {
         <p className="mb-4">
             {`최근에 앞으로 뭘 해야할지에 대한 고민을 많이 하게 되었습니다. 하고 싶은 것들이 너무 많지만 그 중에서 마음을 진정으로 울리는 것을 하고자 고민하고 있습니다.`}
             <br />
-            {`실수를 하면서 앞으로 단단하게 성장하기 위해서 노력하고 있습니다. 그리고 그 과정에서 더 나은 사람이 되기 위해 노력하고 있습니다.`}
+            {`실수를 하면서 다른 사람에게 피해를 끼치면 사과를 하고 앞으로 단단하게 성장하기 위해서 노력하고 있습니다. 그리고 그 과정에서 더 나은 사람이 되기 위해 노력하고 있습니다.`}
         </p>
         <blockquote className="mb-4">
           <span className="font-semibold italic">Anyone who has never made mistak has never tried anything new.</span>
@@ -20,6 +20,10 @@ export default function Page() {
           <br />
           <span className="font-semibold">- 알베르트 아인슈타인, Albert Einstein</span>
         </blockquote>
+        <h2 className="mb-4 text-xl font-semibold">다양한 책을 읽고 있습니다.</h2>
+        <p>다양한 책들을 읽으면서 개인적인 소양을 기르기 위해서 노력하고 있습니다. 주로 철학과 인문학을 좋아하며 자주 읽고 있습니다.</p>
+        <br />
+        <p><b>2024 -</b> 이기주의 말의 품격</p>
     </section>
   )
 }
