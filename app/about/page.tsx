@@ -6,7 +6,7 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-        <h1 className="mb-8 text-2xl font-semibold">안녕하세요. 소프트웨어 엔지니어 박현상입니다.</h1>
+        <h1 className="mb-8 text-2xl font-semibold">안녕하세요. 박현상입니다.</h1>
         <p className="mb-4">
             {`저는 제가 가지고 있는 기술과 능력을 통해서 다른 사람들을 도와줄 수 있는 사람이 되고 싶습니다.\n좁게는 내 이웃을, 크게는 우리나라를 위해 도움이 될 수 있는 사람이 되고 싶습니다.`}
         </p>
