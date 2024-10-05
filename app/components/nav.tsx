@@ -12,9 +12,6 @@ const navItems = {
   },
   '/now': {
     name: 'now'
-  },
-  'https://til.hyunsang.dev': {
-    name: "til"
   }
 }
 
