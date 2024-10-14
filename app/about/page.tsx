@@ -27,6 +27,10 @@ export default function Page() {
             <li><strong>Personal -</strong> Organizer 
                 <a className="hover-link" href="https://gdg.community.dev/gdg-golang-korea/" target="_blank">@GDG Golang Korea</a> (2023.02 ~ Current)</li>
         </div>
+        <blockquote className="mt-8">
+          <b>너희와 함께 있는 타국인을 너희 중에서 낳은 자 같이 여기며 자기 같이 사랑하라 너희도 애굽 땅에서 객이 되었더니라 나는 너희 하나님 여호와니라</b><br/>
+          레위기 13:34
+        </blockquote>
     </section>
   )
 }
