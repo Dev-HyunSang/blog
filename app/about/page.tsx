@@ -6,16 +6,17 @@ export const metadata = {
 export default function Page() {
   return (
     <section>
-        <h1 className="mb-8 text-2xl font-semibold">안녕하세요. 박현상입니다.</h1>
-        <p className="mb-4">
-            {`저는 제가 가지고 있는 기술과 능력을 통해서 다른 사람들을 도와줄 수 있는 사람이 되고 싶습니다.\n좁게는 내 이웃을, 크게는 우리나라를 위해 도움이 될 수 있는 사람이 되고 싶습니다.`}
-        </p>
-        <p className="mb-4">
-            {`학부에서는 정보보호를 전공하고 있습니다. 웹해킹과 법에 관심이 많습니다. 개인정보보호법을 비롯하여 우리 일상 생활에서 사용되는 다양한 법을 이해하고 공부하고자 노력하고 있습니다.`}
-        </p>
-        <p className="mb-4">
-            {`다양한 분들과 소통하며, 인사이트를 얻는 활동을 좋아해서 개발자 커뮤니티인 GDG Golang Korea를 운영하고 있습니다. 이러한 활동을 하면서 제 자신이 부족한 부분을 찾고자 노력하고 있습니다.`}
-        </p>
+        <h1 className="mb-8 text-2xl font-bold">안녕하세요. 박현상입니다.</h1>
+        <div className="mb-8">
+          <h2 className="mb-8 text-xl font-semibold">Motto</h2>
+          <blockquote></blockquote>
+        </div>
+        <div className="mb-8">
+          <h2 className="mb-2 text-xl font-semibold">About for me</h2>
+          <li>인문학과 철학을 좋아합니다. 글쓰는 것도 좋아합니다.</li>
+          <li>무신론자이지만 불교를 좋아합니다.</li>
+          <li>다양한 분들을 만나고 이야기 나누는 것을 좋아합니다.</li>
+        </div>
         <div>
             <h2 className="mb-6 text-xl font-semibold">Experience</h2>
             <li><strong>Duty -</strong> 정보보호(사이버 관제)병 <a className="hover-link" href="https://www.army.mil.kr/" target="_blank">@대한민국 육군</a> (2024.03.18 ~ 2025.09.17)</li>
@@ -27,10 +28,6 @@ export default function Page() {
             <li><strong>Personal -</strong> Organizer 
                 <a className="hover-link" href="https://gdg.community.dev/gdg-golang-korea/" target="_blank">@GDG Golang Korea</a> (2023.02 ~ Current)</li>
         </div>
-        <blockquote className="mt-8">
-          <b>너희와 함께 있는 타국인을 너희 중에서 낳은 자 같이 여기며 자기 같이 사랑하라 너희도 애굽 땅에서 객이 되었더니라 나는 너희 하나님 여호와니라</b><br/>
-          레위기 13:34
-        </blockquote>
     </section>
   )
 }
