@@ -13,9 +13,15 @@ export default function Page() {
         </div>
         <div className="mb-8">
           <h2 className="mb-2 text-xl font-semibold">About for me</h2>
-          <li>인문학과 철학을 좋아합니다. 글쓰는 것도 좋아합니다.</li>
           <li>무신론자이지만 불교를 좋아합니다.</li>
-          <li>다양한 분들을 만나고 이야기 나누는 것을 좋아합니다.</li>
+          <li>미래에 대한 고민을 항상하면서 내 자신을 돌아봅니다.</li>
+          <li>인문학과 철학을 좋아합니다. 글쓰는 것도 좋아합니다.</li>
+          <li>다양한 분들을 만나고 이야기 나누며, </li>
+        </div>
+        <div className="mb-8">
+          <h2 className="mb-2 text-xl font-semibold">Life</h2>
+          <li>음악을 들으면서, 산책하는 것을 좋아합니다.</li>
+          <li>아름다운 풍경과 건축물을 사진으로 담는 것을 좋아합니다.</li>
         </div>
         <div>
             <h2 className="mb-6 text-xl font-semibold">Experience</h2>
