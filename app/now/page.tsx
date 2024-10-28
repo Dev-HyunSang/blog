@@ -22,6 +22,10 @@ export default function Page() {
           </blockquote>
         </div>
         <div className="mb-4">
+          <h2 className="mb-2 text-xl font-semibold">대한민국을 지키고 있습니다.</h2>
+          <p>{"육군 정보보호병 24-1기로 입대하여 육군소속 모처에서 정보보호병으로 복무하고 있습니다.\n"}</p>
+        </div>
+        <div className="mb-4">
           <h2 className="mb-2 text-xl font-semibold">다양한 책을 읽고 있습니다.</h2>
           <p>다양한 책들을 읽으면서 개인적인 소양을 기르기 위해서 노력하고 있습니다. 주로 철학과 인문학을 좋아하며 자주 읽고 있습니다.</p>
           {"\n"}
