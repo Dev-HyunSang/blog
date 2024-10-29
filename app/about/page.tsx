@@ -31,7 +31,7 @@ export default function Page() {
         <div className="mb-8">
           <h2 className="mb-2 text-xl font-semibold">Interested</h2>
           <li><b>Cyber Secuirty -</b> Web Hacking(Vulnerability) • North Korea Cyber Intelligence</li>
-          <li><b>Programming -</b> (main) Golang • Rust • (sub) Python</li>
+          <li><b>Programming -</b> (main) Golang • (sub) Python • Rust • JavaScript</li>
           <li><b>ETC -</b> Law</li>
         </div>
         <div className="mb-8">
