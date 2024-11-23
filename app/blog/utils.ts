@@ -1,3 +1,4 @@
+import { log } from 'console'
 import fs from 'fs'
 import path from 'path'
 
@@ -27,6 +28,7 @@ function parseFrontmatter(fileContent: string) {
   return { metadata: metadata as Metadata, content }
 }
 
+// 한글로 하였는데, 브라우저랑 로컬에 저장되어 있는 파일명과 달라서 오류 발생.
 function getMDXFiles(dir) {
   return fs.readdirSync(dir).filter((file) => path.extname(file) === '.mdx')
 }
@@ -39,12 +41,14 @@ function readMDXFile(filePath) {
 function getMDXData(dir) {
   let mdxFiles = getMDXFiles(dir)
   return mdxFiles.map((file) => {
+    // 파일명을 한글로 하여도 불러올 수 있도록 처리함. - 박현상 2024.11.23
+    let safeSlug = encodeURIComponent(path.basename(file, path.extname(file))) 
     let { metadata, content } = readMDXFile(path.join(dir, file))
-    let slug = path.basename(file, path.extname(file))
+    // let slug = path.basename(file, path.extname(file)) // 기존에 영어로 사용하는 경우에만 사용함.
 
     return {
       metadata,
-      slug,
+      slug: safeSlug,
       content,
     }
   })
