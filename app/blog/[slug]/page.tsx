@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
 import { baseUrl } from 'app/sitemap'
-import { TableOfContents } from 'app/components/toc'
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -87,14 +86,14 @@ export default function Blog({ params }) {
         {post.metadata.title}
       </h1>
       <div className="mt-2 text-neu">
-        <span className="text-sm text-neutral-600 dark:text-neutral-400">{post.metadata.description}</span>
+        <span className="text-sm text-neutral-100">{post.metadata.description}</span>
       </div>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-150">
           {/* {formatDate(post.metadata.publishedAt)} */}
           {post.metadata.publishedAt}
         </p> 
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">Write By <a className="hover-link" href="/about">HyunSang Park</a></p>
+        <p className="text-sm text-neutral-150">Write By <a className="hover-link" href="/about">HyunSang Park</a></p>
       </div>
       <article className="prose">
         <CustomMDX source={post.content} />

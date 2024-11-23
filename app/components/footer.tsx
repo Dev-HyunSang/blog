@@ -21,7 +21,7 @@ export default function Footer() {
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all text-neutral-50 hover:text-neutral-300"
             rel="noopener noreferrer"
             target="_blank"
             href="/rss"
@@ -32,7 +32,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all text-neutral-50 hover:text-neutral-300"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/dev-hyunsang"
@@ -43,7 +43,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all text-neutral-50 hover:text-neutral-300"
             rel="noopener noreferrer"
             target="_blank"
             href="https://kr.linkedin.com/in/parkhyunsang"
@@ -54,7 +54,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all text-neutral-50 hover:text-neutral-300"
             rel="noopener noreferrer"
             target="_blank"
             href="https://til.hyunsang.dev"
@@ -64,7 +64,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
+      <p className="mt-8 text-neutral-50">
         © {new Date().getFullYear()} MIT Licensed
       </p>
     </footer>
