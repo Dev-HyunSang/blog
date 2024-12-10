@@ -54,14 +54,16 @@ function Code({ children, ...props }) {
 }
 
 function slugify(str) {
+  if (str == null) {
+    return ''; 
+  }
+
   return str
-    .toString()
-    .toLowerCase()
-    .trim() // Remove whitespace from both ends of a string
-    .replace(/\s+/g, '-') // Replace spaces with -
-    .replace(/&/g, '-and-') // Replace & with 'and'
-    .replace(/[^\w\-\uac00-\ud7af]+/g, '')
-    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9가-힣\s-]/g, ''); 
 }
 
 function createHeading(level) {

@@ -162,3 +162,7 @@ strong {
 .hover-link:hover {
   font-weight: bold;
 }
+
+hr{
+  @apply h-px my-5 border-0 bg-gray-200;
+}

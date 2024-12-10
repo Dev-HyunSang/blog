@@ -93,8 +93,9 @@ export default function Blog({ params }) {
           {/* {formatDate(post.metadata.publishedAt)} */}
           {post.metadata.publishedAt}
         </p> 
-        <p className="text-sm text-neutral-150">Write By <a className="hover-link" href="/about">HyunSang Park</a></p>
+        <p className="text-sm text-neutral-150 font-semibold">Write By HyunSang Park</p>
       </div>
+      <hr/>
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>

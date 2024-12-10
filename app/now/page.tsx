@@ -1,12 +1,12 @@
 export const metadata = {
-  title: 'To me now',
-  description: 'To me now',
+  title: '현재의 나는',
+  description: '현재 제가 하고 있는 것들에 대해서 서술합니다.',
 }
 
 export default function Page() {
   return (
     <section>
-        <h1 className="mb-8 text-2xl font-semibold">To me now</h1>
+        <h1 className="mb-8 text-2xl font-semibold">현재의 나는</h1>
         <div className="mb-4">
           <h2 className="mb-4 text-xl font-semibold">고민과 실수 속 유영 중</h2>
           <p className="mb-4 whitespace-pre-wrap">
@@ -21,21 +21,29 @@ export default function Page() {
             <span className="font-semibold">- 알베르트 아인슈타인, Albert Einstein</span>
           </blockquote>
         </div>
-        <div className="mb-4">
-          <h2 className="mb-2 text-xl font-semibold">대한민국을 지키고 있습니다.</h2>
-          <p>{"육군 정보보호병 24-1기로 입대하여 육군소속 모처에서 정보보호병으로 복무하고 있습니다.\n"}</p>
-        </div>
+        <hr />
         <div className="mb-4">
           <h2 className="mb-2 text-xl font-semibold">다양한 책을 읽고 있습니다.</h2>
           <p>다양한 책들을 읽으면서 개인적인 소양을 기르기 위해서 노력하고 있습니다. 주로 철학과 인문학을 좋아하며 자주 읽고 있습니다.</p>
-          {"\n"}
-          <p><b>2023 -</b>이어령의 마지막 수업(김지수, 이어령), 어떻게 살 것인가(유시민), 왜 나는 너를 사랑하는가(알랭 드 보통)</p>
-          {"\n"}
-          <p><b>2024 -</b> 말의 품격(이기주), 슬픔을 공부하는 슬픔(신형철), 사랑의 기술(에리히 프롬), 정의란 무엇인가(마이클 샌델)</p>
+          <ol className="list-inside list-disc mt-2">
+            <li className="font-bold">2023년에 읽었던 책:</li>
+            <ol className="ps-5 list-inside list-decimal">
+              <li>이어령의 마지막 수업(김지수, 이어령)</li>
+              <li>어떻게 살 것인가(유시민)</li>
+              <li>왜 나는 너를 사랑하는가(알랭 드 보통)</li>
+            </ol>
+          </ol>
+          <ol className="list-inside list-disc mt-2">
+            <li className="font-bold">2024년에 읽었던 책:</li>
+            <ol className="ps-5 list-inside list-decimal mt-1">
+              <li>말의 품격(이기주)</li> 
+              <li>슬픔을 공부하는 슬픔(신형철)</li>
+              <li>사랑의 기술(에리히 프롬)</li>
+              <li>정의란 무엇인가(마이클 샌델)</li>
+              <li>사랑의 미래(이광호)</li>
+            </ol>
+          </ol>
         </div>
-        <h2 className="mb-4 text-xl font-semibold">개인적으로 법학을 공부하고 있습니다.</h2>
-        <p>학부 졸업 이후 로스쿨에 가기 위해서 개인적으로 형법과 민법, 그리고 법학의 기본원리에 대해서 공부하고 있습니다.</p>
-        <p>로스쿨 입학에 필요한 법학적성시험(LEET)를 준비하고 있습니다.</p>
     </section>
   )
 }

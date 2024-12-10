@@ -1,56 +1,80 @@
 export const metadata = {
-  title: 'Blog',
-  description: 'Read my blog.',
+  title: 'about for me',
 }
 
 export default function Page() {
   return (
     <section>
-        <h1 className="text-2xl font-bold">안녕하세요. 박현상입니다.</h1>
+        <h1 className="text-3xl font-bold">안녕하세요. 박현상입니다.</h1>
         <div className="mt-8 mb-8">
-          <h2 className="mb-3 text-xl font-semibold">Motto</h2>
-          <blockquote><b>"만일 그대가 그대 자신을 사랑한다면, 그대는 모든 사람을 그대 자신을 사랑하듯 사랑할 것이다. 그대가 그대 자신보다도 다른 사람을 더 사랑하는 한, 그대는 정녕 그대 자신을 사랑하지 못할 것이다. 그러나 그대 자신을 포함해서 모든 사람을 똑같이 사랑한다면, 그대는 그들을 한 인간으로 사랑할 것이고 이 사람은 신인 동시에 인간이다. 따라서 그는 자기 자신을 사랑하면서 마찬가지로 다른 모든 사람도 사랑하는 위대하고 올바른 사람이다."</b>
+          <h2 className="mb-3 text-2xl font-semibold">motto</h2>
+          <blockquote>
+            <strong>一切唯心造(일체유심조)</strong>
             <br/>
-          - 사랑의 기술(에리히 프롬), 마이스터 에크하르트의 전언 중.
-          </blockquote>        
+            <strong>모든 것은 오직 마음에서 지어내는 것.</strong>
+            <br />
+            - 대방광불화엄경
+          </blockquote>
         </div>
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-semibold">About for me</h2>
-          <li>무신론자이지만 불교를 좋아합니다.</li>
-          <li>사소함에서 행복과 감사함을 찾고자 노력합니다.</li>
-          <li>미래에 대한 고민을 항상하면서 내 자신을 돌아봅니다.</li>
-          <li>인문학과 철학을 좋아합니다. 글쓰는 것도 좋아합니다.</li>
-          <li>다양한 분들을 만나고 이야기 나누며, 식견을 얻는 것을 좋아합니다.</li>
+          <h2 className="mb-2 text-2xl font-semibold">about for me</h2>
+          <ol className="list-outside list-disc ml-5">
+            <li>무신론자이지만 모든 종교를 좋아합니다.</li>
+            <li>사소함에서 행복과 감사함을 찾고자 노력합니다.</li>
+            <li>죽음을 두려워하지 않습니다. 항상 죽음에 대해서 생각하고 있습니다.</li>
+            <li>다양한 경험을 통해서 제 자신을 성장시키고자 노력하고 있습니다.</li>
+            <li>최근에는 컴퓨터(공학)을 주로 공부하기 보단, 공학과 함께 어울릴 수 있는 무언가를 찾고 공부하고자 노력하고 있습니다.</li>
+          </ol>
         </div>
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-semibold">Life</h2>
-          <li>음악을 들으면서, 산책하는 것을 좋아합니다.</li>
-          <li>서점에서 책을 보며, 시간 보내는 것을 좋아합니다.</li>
-          <li>아름다운 풍경과 건축물을 사진으로 담는 것을 좋아합니다.</li>
+          <h2 className="mb-2 text-2xl font-semibold">life</h2>
+          <ol className="list-outside list-disc ml-5">
+            <li>음악을 들으면서, 산책하는 것을 좋아합니다.</li>
+            <li>서점에서 책을 보며, 시간 보내는 것을 좋아합니다.</li>
+            <li>아름다운 풍경과 건축물을 사진으로 담는 것을 좋아합니다.</li>
+          </ol>
         </div>
         <div className="mb-8">
-          <h2 className="mb-2 text-xl font-semibold">Interested</h2>
-          <li><b>Cyber Secuirty -</b> Web Hacking(Vulnerability) • North Korea Cyber Intelligence</li>
-          <li><b>Programming -</b> (main) Golang • (sub) Python • Rust • JavaScript</li>
-          <li><b>ETC -</b> Law</li>
+          <h2 className="mb-2 text-2xl font-semibold">interested</h2>
+          <li><b>Cyber Secuirty -</b> Web Hacking(Vulnerability) • DPRK (Cyber) Intelligence</li>
+          <li><b>Programming -</b> Golang(1st) • Python(2st) • JavaScript(3st) • Rust(Study) </li>
+          <li><b>ETC -</b> Law(형법, 개인정보와 관련된 법)</li>
+        </div>
+        <div className="mb-8"> 
+          <h2 className="mb-2 text-2xl font-semibold">experience</h2>
+          <div className="mb-4">
+            <h3 className="mb-2 text-xl font-semibold">work</h3>
+            <ol className="list-inside list-disc mt-2">
+              <li className="font-bold">정보보호병(사이버관제병) <a href="https://www.army.mil.kr/sites/army/index.do" className="hover:text-neutral-200">대한민국 육군</a></li>
+              <li className="ps-5 list-inside">정보보호 24-1기 / 자세한 업무 내용은 상시작전부대 특성 및 작전보안 상 생략.</li>
+            </ol>
+            <ol className="list-inside list-disc mt-2">
+              <li className="font-bold">Software Engineer <a href="https://www.teamgrit.kr/" className="hover:text-neutral-200">@TeamGRIT, Inc.</a> (2022.08 ~ 2023.08)</li>
+              <li className="ps-5 list-inside">Go언어 서버 개발 / 영상 프로세싱 시스템 개발</li>
+            </ol>
+          </div>
+          <div className="mb-2">
+            <h3 className="mb-2 text-xl font-semibold">personal</h3>
+            <ol className="list-inside list-disc mt-2">
+              <li className="font-bold">학부생 <a href="https://home.sch.ac.kr/security/index.jsp" className="hover:text-neutral-200">@순천향대학교 정보보호학과</a> (2023 ~ Current)</li>
+              <li className="ps-5 list-insid">1학년 과대표 활동</li>
+            </ol>
+            <ol className="list-inside list-disc mt-2">
+              <li className="font-bold">Organizer <a href="https://gdg.community.dev/gdg-golang-korea/" className="hover:text-neutral-200">@GDG Golang Korea</a> (2023.03 ~ Current)</li>
+              <li className="ps-5 list-inside">Go언어와 관련된 각종 행사 개최 및 미디어 담당</li>
+              <li className="ps-5 list-inside">GopherCon Korea 2024 미디어 리드</li>
+            </ol>
+            <ol className="list-inside list-disc mt-2">
+              <li className="font-bold">교육생 <a href="https://dream.mokpo.ac.kr/dream/index.do" className="hover:text-neutral-200">@목포대학교 정보보호영재교육원</a> (2017.03 ~ 2021.11)</li>
+              <li className="ps-5 list-inside">중등기초, 중등심화, 고등전문(웹해킹), 고등전문(리버싱) 수료</li>
+            </ol>
+          </div>
         </div>
         <div className="mb-8">
-            <h2 className="mb-2 text-xl font-semibold">Experience</h2>
-            <li><strong>Duty -</strong> 정보보호(사이버 관제)병
-              <a className="hover-link" href="https://www.army.mil.kr/" target="_blank">@대한민국 육군</a> (2024.03.18 ~ 2025.09.17)</li>
-            <li><strong>Work -</strong> Softwar Engineer 
-                <a className="hover-link" href="https://teamgrit.kr" target="_blank">@TeamGRIT, Inc.</a> (2021.08 ~ 2023.08)
-            </li>
-            <li><strong>Education -</strong> 학부생 
-              <a className="hover-link" href="https://home.sch.ac.kr/security/index.jsp" target="_blank">@순천향대학교 정보보호학과</a> (2023.03 ~ Current)
-            </li>
-            <li><strong>Personal -</strong> Organizer 
-              <a className="hover-link" href="https://gdg.community.dev/gdg-golang-korea/" target="_blank">@GDG Golang Korea</a> (2023.02 ~ Current)
-            </li>
-        </div>
-        <div className="mb-8">
-          <h2 className="mb-2 text-xl font-semibold">Contact for me</h2>
-          <li><b>Email - </b><a className="hover-link" href="mailto:me@hyunsang.dev">(main) me@hyunsang.dev</a> • <a className="hover-link" href="mailto:park.hyunsang@sch.ac.kr">(sub) park.hyunsang@sch.ac.kr</a></li>
+          <h2 className="mb-2 text-2xl font-semibold">contact</h2>
+          <p>다양한 분들을 만나뵙고, 함께 의견 나누를 것을 좋아합니다.<br/> 
+            언제든 커피챗이 필요하면 메일로 연락 주시면 감사하겠습니다 :-)</p>
+          <p className="mt-2"><b>Email - </b><a className="hover:text-neutral-200 hover:font-bold" href="mailto:me@hyunsang.dev">(main) me@hyunsang.dev</a> • <a className="hover:text-neutral-200 hover:font-bold" href="mailto:park.hyunsang@sch.ac.kr">(sub) park.hyunsang@sch.ac.kr</a></p>
         </div>
     </section>
   )

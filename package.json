@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
@@ -26,7 +27,7 @@
     "to-vfile": "^8.0.0",
     "typescript": "5.3.3",
     "vc": "^0.1.4",
-    "vercel": "^37.4.1"
+    "vercel": "^39.2.0"
   },
-  "version": "run"
+  "version": "--prod"
 }

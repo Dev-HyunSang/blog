@@ -11,15 +11,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "HyunSang's blog",
-    template: "%s | HyunSang's blog",
+    default: "HyunSang Park",
+    template: "%s | HyunSang Park",
   },
   description: "",
   openGraph: {
-    title: "HyunSang's blog",
-    description: "HyunSang's Blog",
+    title: "HyunSang Park",
+    description: "HyunSang Park",
     url: baseUrl,
-    siteName: "HyunSang's blog",
+    siteName: "HyunSang Park",
     locale: 'en_US',
     type: 'website',
   },

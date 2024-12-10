@@ -57,10 +57,10 @@ export default function Footer() {
             className="flex items-center transition-all text-neutral-50 hover:text-neutral-300"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://til.hyunsang.dev"
+            href="https://wiki.hyunsang.dev"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">Today HyunSang Learned</p>
+            <p className="ml-2 h-7">Wiki</p>
           </a>
         </li>
       </ul>
