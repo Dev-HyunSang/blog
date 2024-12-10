@@ -8,7 +8,10 @@ vc dev
 ## Deploy
 ```
 vc --prod
+# and
+yarn deploy
 ```
+- 커밋을 할 경우에도 자동적으로 배포가 되도록 설정 되어 있음. 로컬 상에서 명령어를 통해서 수동으로 배포 가능!
 
 ## Updated Fuction
 
