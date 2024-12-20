@@ -45,7 +45,7 @@ export default function Page() {
           <div className="mb-4">
             <h3 className="mb-2 text-xl font-semibold">work</h3>
             <ol className="list-inside list-disc mt-2">
-              <li className="font-bold">정보보호병(사이버관제병) <a href="https://www.army.mil.kr/sites/army/index.do" className="hover:text-neutral-200">대한민국 육군</a></li>
+              <li className="font-bold">정보보호병(사이버관제병) <a href="https://www.army.mil.kr/sites/army/index.do" className="hover:text-neutral-200">@대한민국 육군</a></li>
               <li className="ps-5 list-inside">정보보호 24-1기 / 자세한 업무 내용은 상시작전부대 특성 및 작전보안 상 생략.</li>
             </ol>
             <ol className="list-inside list-disc mt-2">
