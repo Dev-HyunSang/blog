@@ -13,7 +13,14 @@ type Metadata = {
 function parseFrontmatter(fileContent: string) {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
-  let frontMatterBlock = match![1]
+
+  /* (2024-12-21 수정) 기존 방식의 경우에는 프론트매터가 null인 경우, 오류 발생하여, 없는 경우 프론트매터에 null 값을 반환하지 않고
+    빈 데이터만 생성하여 반환할 수 있도록 개선하였음. */
+  if (!match) {
+    return { metadata: {}, content: fileContent }
+  }
+
+  let frontMatterBlock = match[1]
   let content = fileContent.replace(frontmatterRegex, '').trim()
   let frontMatterLines = frontMatterBlock.trim().split('\n')
   let metadata: Partial<Metadata> = {}
@@ -21,7 +28,7 @@ function parseFrontmatter(fileContent: string) {
   frontMatterLines.forEach((line) => {
     let [key, ...valueArr] = line.split(': ')
     let value = valueArr.join(': ').trim()
-    value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
+    value = value.replace(/^['"](.*)['"]$/, '$1') // 따옴표 제거
     metadata[key.trim() as keyof Metadata] = value
   })
 

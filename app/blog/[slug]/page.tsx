@@ -93,7 +93,7 @@ export default function Blog({ params }) {
           {/* {formatDate(post.metadata.publishedAt)} */}
           {post.metadata.publishedAt}
         </p> 
-        <p className="text-sm text-neutral-150 font-semibold">Write By HyunSang Park</p>
+        <p className="text-sm text-neutral-150">Write By HyunSang Park</p>
       </div>
       <hr/>
       <article className="prose">
