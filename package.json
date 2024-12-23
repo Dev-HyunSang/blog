@@ -27,7 +27,7 @@
     "to-vfile": "^8.0.0",
     "typescript": "5.3.3",
     "vc": "^0.1.4",
-    "vercel": "^39.2.0"
+    "vercel": "^39.2.2"
   },
   "version": "--prod"
 }
