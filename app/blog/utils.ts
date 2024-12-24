@@ -17,12 +17,11 @@ function parseFrontmatter(fileContent: string) {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
 
+  // if (!match) {
+  //   return { metadata: {}, content: fileContent }
+  // } 해코드 삭제, 오류 발생으로 인하여 삭제함.
 
-  if (!match) {
-    return { metadata: {}, content: fileContent }
-  }
-
-  let frontMatterBlock = match[1]
+  let frontMatterBlock = match![1]
   let content = fileContent.replace(frontmatterRegex, '').trim()
   let frontMatterLines = frontMatterBlock.trim().split('\n')
   let metadata: Partial<Metadata> = {}
