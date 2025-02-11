@@ -34,12 +34,6 @@ export default function Page() {
             <li>아름다운 풍경과 건축물을 사진으로 담는 것을 좋아합니다.</li>
           </ol>
         </div>
-        <div className="mb-8">
-          <h2 className="mb-2 text-2xl font-semibold">interested</h2>
-          <li><b>Cyber Secuirty -</b> Web Hacking(Vulnerability) • DPRK (Cyber) Intelligence</li>
-          <li><b>Programming -</b> Golang(1st) • Python(2st) • JavaScript(3st) • Rust(Study) </li>
-          <li><b>ETC -</b> Law(형법, 개인정보와 관련된 법)</li>
-        </div>
         <div className="mb-8"> 
           <h2 className="mb-2 text-2xl font-semibold">experience</h2>
           <div className="mb-4">
